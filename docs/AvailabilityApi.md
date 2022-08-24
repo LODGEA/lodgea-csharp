@@ -1,4 +1,4 @@
-# lodgea-csharp.Api.AvailabilityApi
+# lodgea-csharp.com.lodgea.controllers.AvailabilityApi
 
 All URIs are relative to *https://api.eu.lodgea.io*
 
@@ -21,9 +21,9 @@ Get availability information based on search criteria. The possible values for t
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using lodgea-csharp.Api;
+using lodgea-csharp.com.lodgea.controllers;
 using lodgea-csharp.Client;
-using lodgea-csharp.Model;
+using lodgea-csharp.com.lodgea.model;
 
 namespace Example
 {

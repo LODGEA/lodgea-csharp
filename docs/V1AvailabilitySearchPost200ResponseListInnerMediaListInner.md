@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.V1AvailabilitySearchPost200ResponseListInnerMediaListInner
+# lodgea-csharp.com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerMediaListInner
 
 ## Properties
 

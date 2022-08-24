@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.AvailabilitySearch
+# lodgea-csharp.com.lodgea.model.AvailabilitySearch
 
 ## Properties
 

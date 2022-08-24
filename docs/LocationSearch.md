@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.LocationSearch
+# lodgea-csharp.com.lodgea.model.LocationSearch
 
 ## Properties
 

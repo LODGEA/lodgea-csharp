@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.PropertyGet
+# lodgea-csharp.com.lodgea.model.PropertyGet
 
 ## Properties
 

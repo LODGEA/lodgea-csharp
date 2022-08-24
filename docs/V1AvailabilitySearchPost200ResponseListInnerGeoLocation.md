@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.V1AvailabilitySearchPost200ResponseListInnerGeoLocation
+# lodgea-csharp.com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerGeoLocation
 
 ## Properties
 

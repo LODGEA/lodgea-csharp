@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.V1PropertyGetPost200ResponsePropertyMediaListInner
+# lodgea-csharp.com.lodgea.model.V1PropertyGetPost200ResponsePropertyMediaListInner
 
 ## Properties
 

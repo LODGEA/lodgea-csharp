@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.V1PropertyGetPost200ResponsePropertyGuestInfo
+# lodgea-csharp.com.lodgea.model.V1PropertyGetPost200ResponsePropertyGuestInfo
 
 ## Properties
 

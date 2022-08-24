@@ -41,9 +41,9 @@ Run the following command to generate the DLL
 Then include the DLL (under the `bin` folder) in the C# project, and use the namespaces:
 
 ```csharp
-using lodgea-csharp.Api;
+using lodgea-csharp.com.lodgea.controllers;
 using lodgea-csharp.Client;
-using lodgea-csharp.Model;
+using lodgea-csharp.com.lodgea.model;
 
 ```
 
@@ -66,9 +66,9 @@ Then, publish to a [local feed](https://docs.microsoft.com/en-us/nuget/hosting-p
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using lodgea-csharp.Api;
+using lodgea-csharp.com.lodgea.controllers;
 using lodgea-csharp.Client;
-using lodgea-csharp.Model;
+using lodgea-csharp.com.lodgea.model;
 
 namespace Example
 {
@@ -117,62 +117,62 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
- - [Model.AvailabilitySearch](docs/AvailabilitySearch.md)
- - [Model.LocationSearch](docs/LocationSearch.md)
- - [Model.PropertyGet](docs/PropertyGet.md)
- - [Model.V1AvailabilitySearchPost200Response](docs/V1AvailabilitySearchPost200Response.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInner](docs/V1AvailabilitySearchPost200ResponseListInner.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInnerAttractionListInner](docs/V1AvailabilitySearchPost200ResponseListInnerAttractionListInner.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInnerAttractionListInnerDistance](docs/V1AvailabilitySearchPost200ResponseListInnerAttractionListInnerDistance.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInnerGeo](docs/V1AvailabilitySearchPost200ResponseListInnerGeo.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInnerGeoLocation](docs/V1AvailabilitySearchPost200ResponseListInnerGeoLocation.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInnerLowestPrice](docs/V1AvailabilitySearchPost200ResponseListInnerLowestPrice.md)
- - [Model.V1AvailabilitySearchPost200ResponseListInnerMediaListInner](docs/V1AvailabilitySearchPost200ResponseListInnerMediaListInner.md)
- - [Model.V1LocationSearchPost200Response](docs/V1LocationSearchPost200Response.md)
- - [Model.V1LocationSearchPost200ResponseListInner](docs/V1LocationSearchPost200ResponseListInner.md)
- - [Model.V1PropertyGetPost200Response](docs/V1PropertyGetPost200Response.md)
- - [Model.V1PropertyGetPost200ResponseProductListInner](docs/V1PropertyGetPost200ResponseProductListInner.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerMealPlanListInner](docs/V1PropertyGetPost200ResponseProductListInnerMealPlanListInner.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerPolicyInfo](docs/V1PropertyGetPost200ResponseProductListInnerPolicyInfo.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerPolicyInfoCancellationPolicyListInner](docs/V1PropertyGetPost200ResponseProductListInnerPolicyInfoCancellationPolicyListInner.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerRatePlanListInner](docs/V1PropertyGetPost200ResponseProductListInnerRatePlanListInner.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInner](docs/V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInner.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInnerPriceList](docs/V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInnerPriceList.md)
- - [Model.V1PropertyGetPost200ResponseProductListInnerRoomTypeListInner](docs/V1PropertyGetPost200ResponseProductListInnerRoomTypeListInner.md)
- - [Model.V1PropertyGetPost200ResponseProperty](docs/V1PropertyGetPost200ResponseProperty.md)
- - [Model.V1PropertyGetPost200ResponsePropertyAwardListInner](docs/V1PropertyGetPost200ResponsePropertyAwardListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyCancellationGracePeriod](docs/V1PropertyGetPost200ResponsePropertyCancellationGracePeriod.md)
- - [Model.V1PropertyGetPost200ResponsePropertyContactListInner](docs/V1PropertyGetPost200ResponsePropertyContactListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyContactListInnerAddressListInner](docs/V1PropertyGetPost200ResponsePropertyContactListInnerAddressListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfo](docs/V1PropertyGetPost200ResponsePropertyFacilityInfo.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerAmenityListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerAmenityListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerRoomAmenityListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerRoomAmenityListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerTagListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerTagListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMessageListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMessageListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGeo](docs/V1PropertyGetPost200ResponsePropertyGeo.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGeoDa](docs/V1PropertyGetPost200ResponsePropertyGeoDa.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGeoDe](docs/V1PropertyGetPost200ResponsePropertyGeoDe.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGeoDeLocation](docs/V1PropertyGetPost200ResponsePropertyGeoDeLocation.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGeoEn](docs/V1PropertyGetPost200ResponsePropertyGeoEn.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGeoNl](docs/V1PropertyGetPost200ResponsePropertyGeoNl.md)
- - [Model.V1PropertyGetPost200ResponsePropertyGuestInfo](docs/V1PropertyGetPost200ResponsePropertyGuestInfo.md)
- - [Model.V1PropertyGetPost200ResponsePropertyMediaListInner](docs/V1PropertyGetPost200ResponsePropertyMediaListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyMediaListInnerTagListInner](docs/V1PropertyGetPost200ResponsePropertyMediaListInnerTagListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPolicyListInner](docs/V1PropertyGetPost200ResponsePropertyPolicyListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPolicyListInnerPetsPolicy](docs/V1PropertyGetPost200ResponsePropertyPolicyListInnerPetsPolicy.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPolicyListInnerTaxPolicyListInner](docs/V1PropertyGetPost200ResponsePropertyPolicyListInnerTaxPolicyListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPropertyInfo](docs/V1PropertyGetPost200ResponsePropertyPropertyInfo.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPropertyInfoAcceptedPaymentListInner](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoAcceptedPaymentListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPropertyInfoCategoryListInner](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoCategoryListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPropertyInfoLocation](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoLocation.md)
- - [Model.V1PropertyGetPost200ResponsePropertyPropertyInfoMessageListInner](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoMessageListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyRecordCreated](docs/V1PropertyGetPost200ResponsePropertyRecordCreated.md)
- - [Model.V1PropertyGetPost200ResponsePropertyRecordModified](docs/V1PropertyGetPost200ResponsePropertyRecordModified.md)
- - [Model.V1PropertyGetPost200ResponsePropertyServiceListInner](docs/V1PropertyGetPost200ResponsePropertyServiceListInner.md)
- - [Model.V1PropertyGetPost200ResponsePropertyTransaction](docs/V1PropertyGetPost200ResponsePropertyTransaction.md)
- - [Model.V1PropertyGetPost200ResponsePropertyTransactionExternalListInner](docs/V1PropertyGetPost200ResponsePropertyTransactionExternalListInner.md)
+ - [com.lodgea.model.AvailabilitySearch](docs/AvailabilitySearch.md)
+ - [com.lodgea.model.LocationSearch](docs/LocationSearch.md)
+ - [com.lodgea.model.PropertyGet](docs/PropertyGet.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200Response](docs/V1AvailabilitySearchPost200Response.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInner](docs/V1AvailabilitySearchPost200ResponseListInner.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerAttractionListInner](docs/V1AvailabilitySearchPost200ResponseListInnerAttractionListInner.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerAttractionListInnerDistance](docs/V1AvailabilitySearchPost200ResponseListInnerAttractionListInnerDistance.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerGeo](docs/V1AvailabilitySearchPost200ResponseListInnerGeo.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerGeoLocation](docs/V1AvailabilitySearchPost200ResponseListInnerGeoLocation.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerLowestPrice](docs/V1AvailabilitySearchPost200ResponseListInnerLowestPrice.md)
+ - [com.lodgea.model.V1AvailabilitySearchPost200ResponseListInnerMediaListInner](docs/V1AvailabilitySearchPost200ResponseListInnerMediaListInner.md)
+ - [com.lodgea.model.V1LocationSearchPost200Response](docs/V1LocationSearchPost200Response.md)
+ - [com.lodgea.model.V1LocationSearchPost200ResponseListInner](docs/V1LocationSearchPost200ResponseListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200Response](docs/V1PropertyGetPost200Response.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInner](docs/V1PropertyGetPost200ResponseProductListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerMealPlanListInner](docs/V1PropertyGetPost200ResponseProductListInnerMealPlanListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerPolicyInfo](docs/V1PropertyGetPost200ResponseProductListInnerPolicyInfo.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerPolicyInfoCancellationPolicyListInner](docs/V1PropertyGetPost200ResponseProductListInnerPolicyInfoCancellationPolicyListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerRatePlanListInner](docs/V1PropertyGetPost200ResponseProductListInnerRatePlanListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInner](docs/V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInnerPriceList](docs/V1PropertyGetPost200ResponseProductListInnerRatePlanListInnerPricingListInnerPriceList.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProductListInnerRoomTypeListInner](docs/V1PropertyGetPost200ResponseProductListInnerRoomTypeListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponseProperty](docs/V1PropertyGetPost200ResponseProperty.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyAwardListInner](docs/V1PropertyGetPost200ResponsePropertyAwardListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyCancellationGracePeriod](docs/V1PropertyGetPost200ResponsePropertyCancellationGracePeriod.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyContactListInner](docs/V1PropertyGetPost200ResponsePropertyContactListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyContactListInnerAddressListInner](docs/V1PropertyGetPost200ResponsePropertyContactListInnerAddressListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfo](docs/V1PropertyGetPost200ResponsePropertyFacilityInfo.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerAmenityListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerAmenityListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerRoomAmenityListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerRoomAmenityListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerTagListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMediaListInnerTagListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMessageListInner](docs/V1PropertyGetPost200ResponsePropertyFacilityInfoGuestRoomListInnerMessageListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGeo](docs/V1PropertyGetPost200ResponsePropertyGeo.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGeoDa](docs/V1PropertyGetPost200ResponsePropertyGeoDa.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGeoDe](docs/V1PropertyGetPost200ResponsePropertyGeoDe.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGeoDeLocation](docs/V1PropertyGetPost200ResponsePropertyGeoDeLocation.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGeoEn](docs/V1PropertyGetPost200ResponsePropertyGeoEn.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGeoNl](docs/V1PropertyGetPost200ResponsePropertyGeoNl.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyGuestInfo](docs/V1PropertyGetPost200ResponsePropertyGuestInfo.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyMediaListInner](docs/V1PropertyGetPost200ResponsePropertyMediaListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyMediaListInnerTagListInner](docs/V1PropertyGetPost200ResponsePropertyMediaListInnerTagListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPolicyListInner](docs/V1PropertyGetPost200ResponsePropertyPolicyListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPolicyListInnerPetsPolicy](docs/V1PropertyGetPost200ResponsePropertyPolicyListInnerPetsPolicy.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPolicyListInnerTaxPolicyListInner](docs/V1PropertyGetPost200ResponsePropertyPolicyListInnerTaxPolicyListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPropertyInfo](docs/V1PropertyGetPost200ResponsePropertyPropertyInfo.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPropertyInfoAcceptedPaymentListInner](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoAcceptedPaymentListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPropertyInfoCategoryListInner](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoCategoryListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPropertyInfoLocation](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoLocation.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyPropertyInfoMessageListInner](docs/V1PropertyGetPost200ResponsePropertyPropertyInfoMessageListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyRecordCreated](docs/V1PropertyGetPost200ResponsePropertyRecordCreated.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyRecordModified](docs/V1PropertyGetPost200ResponsePropertyRecordModified.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyServiceListInner](docs/V1PropertyGetPost200ResponsePropertyServiceListInner.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyTransaction](docs/V1PropertyGetPost200ResponsePropertyTransaction.md)
+ - [com.lodgea.model.V1PropertyGetPost200ResponsePropertyTransactionExternalListInner](docs/V1PropertyGetPost200ResponsePropertyTransactionExternalListInner.md)
 
 
 ## Documentation for Authorization

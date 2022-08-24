@@ -1,4 +1,4 @@
-# lodgea-csharp.Api.PropertyApi
+# lodgea-csharp.com.lodgea.controllers.PropertyApi
 
 All URIs are relative to *https://api.eu.lodgea.io*
 
@@ -21,9 +21,9 @@ Get all information about a specific property by its ID. This parameter is requi
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using lodgea-csharp.Api;
+using lodgea-csharp.com.lodgea.controllers;
 using lodgea-csharp.Client;
-using lodgea-csharp.Model;
+using lodgea-csharp.com.lodgea.model;
 
 namespace Example
 {

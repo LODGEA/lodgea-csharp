@@ -1,5 +1,5 @@
 
-# lodgea-csharp.Model.V1LocationSearchPost200Response
+# lodgea-csharp.com.lodgea.model.V1LocationSearchPost200Response
 
 ## Properties
 

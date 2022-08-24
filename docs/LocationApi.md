@@ -1,4 +1,4 @@
-# lodgea-csharp.Api.LocationApi
+# lodgea-csharp.com.lodgea.controllers.LocationApi
 
 All URIs are relative to *https://api.eu.lodgea.io*
 
@@ -21,9 +21,9 @@ Get a location by search text in free from. This parameter is required.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using lodgea-csharp.Api;
+using lodgea-csharp.com.lodgea.controllers;
 using lodgea-csharp.Client;
-using lodgea-csharp.Model;
+using lodgea-csharp.com.lodgea.model;
 
 namespace Example
 {
