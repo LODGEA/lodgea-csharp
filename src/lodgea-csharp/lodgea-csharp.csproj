@@ -12,7 +12,7 @@ Contact: info@lodgea.com
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E6A935B-C59E-4F88-A648-604C603FCA56}</ProjectGuid>
+    <ProjectGuid>{8D4C6E23-106F-48C0-BECD-F27A1A0155C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>lodgea-csharp</RootNamespace>
