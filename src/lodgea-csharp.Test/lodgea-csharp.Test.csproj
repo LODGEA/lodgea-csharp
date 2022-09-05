@@ -81,7 +81,7 @@ Contact: info@lodgea.com
   <Import Project="$(MsBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
       <ProjectReference Include="..\lodgea-csharp\lodgea-csharp.csproj">
-          <Project>{8D4C6E23-106F-48C0-BECD-F27A1A0155C8}</Project>
+          <Project>{14EB89C1-DD03-4052-830D-EA6689878856}</Project>
           <Name>lodgea-csharp</Name>
       </ProjectReference>
   </ItemGroup>
