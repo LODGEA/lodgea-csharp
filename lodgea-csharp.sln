@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 12.0.0.0
 MinimumVisualStudioVersion = 10.0.0.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lodgea-csharp", "src\lodgea-csharp\lodgea-csharp.csproj", "{728D3274-3221-41BF-B784-85347D512DFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lodgea-csharp", "src\lodgea-csharp\lodgea-csharp.csproj", "{7E6A935B-C59E-4F88-A648-604C603FCA56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lodgea-csharp.Test", "src\lodgea-csharp.Test\lodgea-csharp.Test.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
 EndProject
@@ -12,10 +12,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{728D3274-3221-41BF-B784-85347D512DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{728D3274-3221-41BF-B784-85347D512DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{728D3274-3221-41BF-B784-85347D512DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{728D3274-3221-41BF-B784-85347D512DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6A935B-C59E-4F88-A648-604C603FCA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6A935B-C59E-4F88-A648-604C603FCA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6A935B-C59E-4F88-A648-604C603FCA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6A935B-C59E-4F88-A648-604C603FCA56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
