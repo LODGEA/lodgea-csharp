@@ -33,31 +33,33 @@ namespace lodgea-csharp.com.lodgea.model
         /// <summary>
         /// Initializes a new instance of the <see cref="LocationSearch" /> class.
         /// </summary>
-        [JsonConstructorAttribute]
-        protected LocationSearch() { }
-        /// <summary>
-        /// Initializes a new instance of the <see cref="LocationSearch" /> class.
-        /// </summary>
-        /// <param name="searchText">searchText (required).</param>
-        public LocationSearch(string searchText = default(string))
+        /// <param name="searchText">searchText.</param>
+        /// <param name="currencyCode">currencyCode.</param>
+        /// <param name="languageCode">languageCode.</param>
+        public LocationSearch(string searchText = default(string), string currencyCode = default(string), string languageCode = default(string))
         {
-            // to ensure "searchText" is required (not null)
-            if (searchText == null)
-            {
-                throw new InvalidDataException("searchText is a required property for LocationSearch and cannot be null");
-            }
-            else
-            {
-                this.SearchText = searchText;
-            }
-
+            this.SearchText = searchText;
+            this.CurrencyCode = currencyCode;
+            this.LanguageCode = languageCode;
         }
 
         /// <summary>
         /// Gets or Sets SearchText
         /// </summary>
-        [DataMember(Name="searchText", EmitDefaultValue=true)]
+        [DataMember(Name="searchText", EmitDefaultValue=false)]
         public string SearchText { get; set; }
+
+        /// <summary>
+        /// Gets or Sets CurrencyCode
+        /// </summary>
+        [DataMember(Name="currencyCode", EmitDefaultValue=false)]
+        public string CurrencyCode { get; set; }
+
+        /// <summary>
+        /// Gets or Sets LanguageCode
+        /// </summary>
+        [DataMember(Name="languageCode", EmitDefaultValue=false)]
+        public string LanguageCode { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -68,6 +70,8 @@ namespace lodgea-csharp.com.lodgea.model
             var sb = new StringBuilder();
             sb.Append("class LocationSearch {\n");
             sb.Append("  SearchText: ").Append(SearchText).Append("\n");
+            sb.Append("  CurrencyCode: ").Append(CurrencyCode).Append("\n");
+            sb.Append("  LanguageCode: ").Append(LanguageCode).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -106,6 +110,16 @@ namespace lodgea-csharp.com.lodgea.model
                     this.SearchText == input.SearchText ||
                     (this.SearchText != null &&
                     this.SearchText.Equals(input.SearchText))
+                ) && 
+                (
+                    this.CurrencyCode == input.CurrencyCode ||
+                    (this.CurrencyCode != null &&
+                    this.CurrencyCode.Equals(input.CurrencyCode))
+                ) && 
+                (
+                    this.LanguageCode == input.LanguageCode ||
+                    (this.LanguageCode != null &&
+                    this.LanguageCode.Equals(input.LanguageCode))
                 );
         }
 
@@ -120,6 +134,10 @@ namespace lodgea-csharp.com.lodgea.model
                 int hashCode = 41;
                 if (this.SearchText != null)
                     hashCode = hashCode * 59 + this.SearchText.GetHashCode();
+                if (this.CurrencyCode != null)
+                    hashCode = hashCode * 59 + this.CurrencyCode.GetHashCode();
+                if (this.LanguageCode != null)
+                    hashCode = hashCode * 59 + this.LanguageCode.GetHashCode();
                 return hashCode;
             }
         }
