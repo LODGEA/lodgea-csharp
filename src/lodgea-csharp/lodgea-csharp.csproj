@@ -4,7 +4,7 @@ lodgea-csharp
 
 LODGEA SDK for CSharp. Check out https://docs.lodgea.io for more information.
 
-The version of the OpenAPI document: 1.0.1
+The version of the OpenAPI document: 1.0.2
 Contact: support@lodgea.com
 -->
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -12,7 +12,7 @@ Contact: support@lodgea.com
     
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C73DF6A2-2437-4BA4-9E0B-3DA41FB247C9}</ProjectGuid>
+    <ProjectGuid>{87F4C58A-FB0A-483C-BAEF-799479170311}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>lodgea-csharp</RootNamespace>
