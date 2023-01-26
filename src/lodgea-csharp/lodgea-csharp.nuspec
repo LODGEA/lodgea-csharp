@@ -21,7 +21,7 @@
              nuget.org gallery uses information you add in the portal. -->
         <description>A library generated from a OpenAPI doc</description>
         <copyright>https://www.lodgea.com/terms.html</copyright>
-        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+        <licenseUrl>http://localhost</licenseUrl>
 
         <!-- Dependencies are automatically installed when the package is installed -->
         <dependencies>
